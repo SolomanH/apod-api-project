@@ -1,0 +1,208 @@
+body {
+    background-color: #000000;
+  }
+  
+  body,
+  button,
+  input,
+  p,
+  h2 {
+    font-family: Arial, sans-serif;
+    color: #ffffff;
+  }
+  
+  
+  h1 {
+    text-align: center;
+    font-weight: bold;
+    font-size: 50px;
+    background: linear-gradient(to right, #f12711, #f5af19);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-shadow: 2px 2px 0px #ffffff;
+    border-bottom: 1px solid #f5af19;
+    padding-bottom: 10px;
+  }
+
+ 
+  
+  form {
+    text-align: center;
+    margin-top: 20px;
+   
+    padding: 10 20px;
+    
+  }
+  
+  
+  label {
+    font-family: Arial, sans-serif;
+    color: #ffffff;
+    display:block;
+    
+  }
+  
+  input[type="date"] {
+    padding: 10px 30px;
+    border: none;
+    background-color: #faf5ee;
+    color: #000000;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    transition: all 0.2s ease-in-out;
+  }
+
+  input#date {
+    font-size: 16px;
+    padding: 5px 20px;
+    margin-top: 20px;
+  }
+  
+  input[type="date"]:hover,
+  input[type="date"]:focus {
+    outline: none;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    transform: scale(1.05);
+  }
+  
+  input[type="date"] {
+    margin-right: 10px;
+  }
+  
+  button[type="submit"] {
+    background-color: #ccb345;
+  }
+  
+  
+  
+  
+  #apod-container h2 {
+    font-size: 36px;
+    margin-bottom: 10px;
+    margin-left: 950px;
+  }
+
+  #apod-container p {
+    margin-left: 950px;
+    margin-bottom: 5px;
+  }
+
+  #apod-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+ 
+  
+  #apod-container {
+    width: 100%;
+    margin-top: -30px;
+    
+    
+  }
+  
+  
+  #apod-container img {
+    display:flex;
+    margin: 0 auto;
+    margin-top: -240px;
+    width: 250px;
+    height: 100px;
+    margin-right: 700px;
+    cursor: pointer;
+    
+  }
+
+  #apod-container button {
+    margin-bottom: 200px;
+  }
+
+  
+  button {
+    display: flex;
+    margin: 20px auto;
+    margin-bottom: 120px;
+    padding: 10px 15px;
+    border: none;
+    background-color: #424031;
+    color: #f0ebeb;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 25px;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease-in-out;
+  }
+  
+  button:hover {
+   
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.3);
+    background-color: #a0a076;
+  }
+  
+  
+ 
+  #favorites-container {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 800px;
+    margin: 30px auto;
+  }
+  
+ 
+  
+  .favorite-container {
+    width: 100%;
+    margin-top: 300px;
+    border: 1px solid #585656;
+    border-radius: 2px;
+    overflow: hidden;
+    box-shadow: 0 0 2px rgba(255, 255, 255, 0.5);
+    margin: 10px auto;
+  }
+  
+  
+ 
+  .favorite-container img {
+    display:flex;
+    margin: 0 auto;
+    margin-top: 30px;
+    width: 250px;
+    height: 100px;
+    margin-left: 30px;
+    cursor: pointer;
+    transition: transform 0.2s;
+  }
+.favorite-container img:hover {
+  transform: scale(1.05);
+}
+  .favorite-container h2 {
+    margin-left: 400px;
+  }
+
+  .favorite-container p {
+    margin-left: 400px;
+    margin-bottom: -100px;
+  }
+ 
+  .favorite-container button {
+    display:flex;
+    margin: 10px auto;
+    margin-left: 400px;
+    margin-top: -20px;
+    padding: 10px 15px;
+    border: none;
+    background-color: #f44336;
+    color: #ffffff;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  div.favorite-container {
+    margin-top: 70px;
+  }
+
+
+ 
+  
+  

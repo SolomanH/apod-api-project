@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>APOD Web App</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>APOD Search</h1>
+    </header>
+
+    <main>
+      <form>
+        <div class="form-group">
+          <label for="date">Enter a date:</label>
+          <input type="date" id="date" name="date" />
+        </div>
+        <div class="form-group">
+          <button type="submit" class="btn">Get Picture</button>
+        </div>
+      </form>
+
+      <div id="apod-container"></div>
+
+      <div id="favorites-container"></div>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
